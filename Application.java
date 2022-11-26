@@ -13,6 +13,8 @@ public class Application {
 		Tree aTree=new Tree();//Creates a tree with root
 		Node root=aTree.generatePracticeTree(5);
 		DepthFirstSearch aSearch=new DepthFirstSearch();
+		
+		System.out.println("\nPreorder depth-first search of tree:");
 		aSearch.DFS(root);
 	}
 

@@ -3,12 +3,14 @@
  *
  */
 public class Node {
+	private boolean visited;
 	private int data;
 	private Node lChild;
 	private Node rChild;
 	
 	public Node(int data)
 	{
+		visited = false;
 		lChild=null;
 		rChild=null;
 		this.data=data;
@@ -49,6 +51,14 @@ public class Node {
 	 */
 	public void setrChild(Node rChild) {
 		this.rChild = rChild;
+	}
+
+	public boolean isVisited() {
+		return visited;
+	}
+
+	public void setVisited(boolean visited) {
+		this.visited = visited;
 	}
 	
 }

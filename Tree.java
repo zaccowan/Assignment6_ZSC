@@ -66,7 +66,8 @@ public class Tree {
 					 childQ.add(pn.getrChild());
 				 }
 					 
-				 level++;System.out.println("Level: "+level);
+				 level++;
+				 System.out.println("Level: "+level);
 			 }
 			 
 		
