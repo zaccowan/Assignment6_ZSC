@@ -1,34 +1,43 @@
-/**
- * @author Nathan Johnson, Bellarmine University
- *
- */
 import java.util.Queue; // import the Queue class
 import java.util.LinkedList;
+/**
+ * Class to create a binary tree breath first.
+ * @author Nathan Johnson, Bellarmine University
+ */
 public class Tree {
 	
 	private int height;
 	private Node root;
 	
+	/**
+	 * Initializes a default tree with a single root node.
+	 */
 	public Tree()
 	{
 			setRoot(new Node(1));
 	}
 	
 	/**
+	 * Get the root of the tree
 	 * @return the root
 	 */
-	
 	public Node getRoot() {
 		return root;
 	}
+	
 	/**
+	 * Set the root of the tree.
 	 * @param root the root to set
 	 */
 	public void setRoot(Node root) {
 		this.root = root;
 	}
 
-	//returns the root node
+	
+	/**
+	 * @param height Height in which to make the tree.
+	 * @return The root of the tree
+	 */
 	public Node generatePracticeTree(int height)
 	{
 	   this.height=height;

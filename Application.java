@@ -1,6 +1,9 @@
 /**
+ * Class to create binary tree and test DepthFirstSearch
+ * @author Zac Cowan
  * @author Nathan Johnson, Bellarmine University
- *
+ * @version 11/24/2022
+ * Fall/2022
  */
 public class Application {
 
